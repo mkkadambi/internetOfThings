@@ -89,28 +89,23 @@ while (True):
     response = sms.send_sms('Very less light, value=' + str(light_response_value))
     #print('Twilio response= ', response)
  time.sleep(10)
-
-```
+````
 
 ## Outputs and Screenshots:
 
 ### Connections of the iOT Module
-![Photo showing the Connections of the iOT Module with the light sensor]
-(light_sensor_connection.jpg)
+![Photo showing the Connections of the iOT Module with the light sensor](light_sensor_connection.jpg)
 
 ### Terminal outputs
-![Screenshot of the terminal showing the output of the python script]
-(terminal_log.png)
+![Screenshot of the terminal showing the output of the python script](terminal_log.png)
 
 ### SMS Alerts
 Device Connectivity alert:
-![Screenshot of the SMS received showing lack of connectivity to the iOT device]
-(sms_sensor_offline.PNG)
+![Screenshot of the SMS received showing lack of connectivity to the iOT device](sms_sensor_offline.PNG)
 
 
 Light Intensity alerts:
-![Screenshot of the SMS received showing the crossing of light thresholds]
-(sms_light_intensity.PNG)
+![Screenshot of the SMS received showing the crossing of light thresholds](sms_light_intensity.PNG)
 
 
 
