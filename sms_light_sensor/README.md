@@ -30,6 +30,9 @@ Using Bolt-iOT device, interface an LDR with cloud monitoring so that if the lig
  3. Light intensity reading crossing the maximum and minimum thresholds
 
  The light intensity was varied using a handheld flashlight in order to cause the alerts to be generated
+ 
+ Here is a high level architecture diagram of this system:
+ ![Architecture Diagram](light_sensor_architecture.png)
 
 ## Code
 ````
